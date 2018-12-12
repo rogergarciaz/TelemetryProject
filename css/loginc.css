@@ -1,0 +1,76 @@
+body{
+background: -moz-linear-gradient(top, rgba(50,130,123,1) 0%, rgba(8,15,15,0.09) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(50,130,123,1)), color-stop(100%, rgba(8,15,15,0.09)));
+background: -webkit-linear-gradient(top, rgba(50,130,123,1) 0%, rgba(8,15,15,0.09) 100%);
+background: -o-linear-gradient(top, rgba(50,130,123,1) 0%, rgba(8,15,15,0.09) 100%);
+background: -ms-linear-gradient(top, rgba(50,130,123,1) 0%, rgba(8,15,15,0.09) 100%);
+background: linear-gradient(to bottom, rgba(50,130,123,1) 0%, rgba(8,15,15,0.09) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32827b', endColorstr='#080f0f', GradientType=0 );  
+}
+.titulo{
+  margin:0 auto;
+}
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color:#444444; font-size:18px; margin:0 auto;}
+.panel p { color:#777777; font-size:14px; position: left;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 7%;
+}
+.main-div {
+  background: #ffffff ;
+  border-radius: 1px;
+  margin:0 auto;
+  max-width: 90%;
+  padding:5%;
+}
+.login-form .form-group {
+  background: 000000;
+  margin-bottom:0.5%;
+}
+.login-form{
+  text-align:center;
+  margin:0 auto;
+}
+.ayuda a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #32827b;
+  border-color: #32827b;
+  color: #ffffff;
+  font-size: 14px;
+  width: 40%;
+  height: 45px;
+  padding: 0;
+}
+.ayuda {
+  text-align: left; 
+  margin-bottom:3%;
+}
+
+footer {
+  color: #000000;
+  text-align: center; 
+  padding: 1px;
+}
+
+@media screen and (min-width: 500px){
+  .main-div{
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .ayuda {
+    margin-top: 3%;
+  }
+  .login-form .form-control {
+    height: 35px;
+  }
+}
