@@ -1,3 +1,2 @@
-# ProyectoDeTelemetria
-Proyecto de telemetría para rastreo de posición y sensores en tiempo real o historicos de dos o más vehiculos
-Se uso una instancia EC2 en conjunto con una RDS, ambos servicios brindados por AWS. Se analizan los datos de RPM y de velocidad de los vehiculos, junto con la posición de las mismos.
+# Telemetry project
+Telemetry project for position tracking and real-time or historical sensors of two or more vehicles. An EC2 instance was used in conjunction with an RDS, both services provided by AWS. Vehicle RPM and speed data are analyzed, along with their position.
